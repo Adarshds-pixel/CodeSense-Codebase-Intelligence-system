@@ -1,0 +1,30 @@
+# Node
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Project data
+data/uploads/*
+!data/uploads/.gitkeep
+data/repositories/*
+!data/repositories/.gitkeep
+data/vector_store/*
+!data/vector_store/.gitkeep
